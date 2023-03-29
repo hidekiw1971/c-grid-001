@@ -1,0 +1,54 @@
+@use "global" as *;
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // direction: rtl;
+    text-align: left;
+    margin-bottom: rem(50);
+
+}
+
+.grid>.box1,
+.grid>.box2 {
+    display: block;
+    width: 100%;
+    padding: rem(30);
+}
+
+.box1 {
+    background: rgba(255, 69, 0, 0.5);
+}
+
+.box2 {
+    background: rgba(0, 139, 139, 0.5);
+}
+
+// 左右入れ替え
+.grid-reverce {
+    direction: rtl;
+}
+
+
+// liで検証
+.grid-li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    direction: rtl;
+    text-align: left;
+}
+
+.grid-li>li:nth-child(1) {
+    background: rgba(255, 69, 0, 0.5);
+    padding: rem(30);
+}
+
+.grid-li>li:nth-child(2) {
+    background: rgba(0, 139, 139, 0.5);
+    padding: rem(30);
+}
+
+// 。をマーク
+span {
+    background: rgba(255, 0, 0, 0.5);
+}
