@@ -1,4 +1,4 @@
-<img width="1272" alt="image" src="https://user-images.githubusercontent.com/99580997/228683212-cb6dace4-d452-4477-a12f-03253e5e7a9e.png">
+<img width="1272" alt="image" src="https://user-images.githubusercontent.com/99580997/228684244-f5048f55-e928-4d2a-a666-0f3b733f4fab.png">
 
 # compornent（共通部品）
 - grid（directionでboxをreverceしたら、句読点の”。”の位置がおかしい。”。”の位置がずれてします事象が発生する事例。）
