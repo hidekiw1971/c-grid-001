@@ -1,7 +1,7 @@
-画像をコピペ
+<img width="1272" alt="image" src="https://user-images.githubusercontent.com/99580997/228683212-cb6dace4-d452-4477-a12f-03253e5e7a9e.png">
 
 # compornent（共通部品）
-- 説明
+- grid（directionでboxをreverceしたら、句読点の”。”の位置がおかしい。”。”の位置がずれてします事象が発生する事例。）
 
 # w3c html/css ck
 - confirmed or unconfirmed
